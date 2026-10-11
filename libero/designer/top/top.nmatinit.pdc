@@ -1,0 +1,163 @@
+# Microchip Physical design constraints file
+
+# Version: 2025.1 2025.1.0.14
+
+# Design Name: top 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFireSoC , Die: MPFS095T , Package: FCSG325 , Speed grade: -1 
+
+# Date generated: Mon Dec  8 14:31:49 2025 
+
+
+#
+# I/O constraints
+#
+
+set_io -port_name btn_down -DIRECTION INPUT -pin_name T19 -fixed false
+set_io -port_name btn_remain -DIRECTION INPUT -pin_name V21 -fixed false
+set_io -port_name btn_up -DIRECTION INPUT -pin_name U18 -fixed false
+set_io -port_name clk -DIRECTION INPUT -pin_name R18 -fixed false
+set_io -port_name dp -DIRECTION OUTPUT -pin_name Y15 -fixed false
+set_io -port_name rst -DIRECTION INPUT -pin_name AA19 -fixed false
+set_io -port_name seg\[0\] -DIRECTION OUTPUT -pin_name V18 -fixed false
+set_io -port_name seg\[1\] -DIRECTION OUTPUT -pin_name W20 -fixed false
+set_io -port_name seg\[2\] -DIRECTION OUTPUT -pin_name Y19 -fixed false
+set_io -port_name seg\[3\] -DIRECTION OUTPUT -pin_name T17 -fixed false
+set_io -port_name seg\[4\] -DIRECTION OUTPUT -pin_name W16 -fixed false
+set_io -port_name seg\[5\] -DIRECTION OUTPUT -pin_name AA17 -fixed false
+set_io -port_name seg\[6\] -DIRECTION OUTPUT -pin_name V15 -fixed false
+
+#
+# Core cell constraints
+#
+
+set_location -inst_name tick_gen/cnt\[9\] -fixed false -x 1965 -y 211
+set_location -inst_name tick_gen/cnt\[21\] -fixed false -x 1977 -y 211
+set_location -inst_name tick_gen/un1_cntlto16 -fixed false -x 1961 -y 213
+set_location -inst_name db_up/shift\[5\] -fixed false -x 2022 -y 172
+set_location -inst_name cnt/count_0_1\[3\] -fixed false -x 1995 -y 210
+set_location -inst_name up/d -fixed false -x 2023 -y 211
+set_location -inst_name db_up/shift\[3\] -fixed false -x 2021 -y 172
+set_location -inst_name cnt/count_0\[0\] -fixed false -x 1999 -y 213
+set_location -inst_name tick_gen/cnt\[13\] -fixed false -x 1969 -y 211
+set_location -inst_name cnt/count_Z\[0\] -fixed false -x 1999 -y 214
+set_location -inst_name tick_gen/cnt\[1\] -fixed false -x 1957 -y 211
+set_location -inst_name db_up/shift\[8\] -fixed false -x 2016 -y 211
+set_location -inst_name db_up/shift\[10\] -fixed false -x 2019 -y 211
+set_location -inst_name tick_gen/cnt\[16\] -fixed false -x 1972 -y 211
+set_location -inst_name tick_gen/cnt\[10\] -fixed false -x 1966 -y 211
+set_location -inst_name tick_gen/cnt\[6\] -fixed false -x 1962 -y 211
+set_location -inst_name db_up/shift\[7\] -fixed false -x 2025 -y 211
+set_location -inst_name control/current_state_srsts_0\[0\] -fixed false -x 1993 -y 210
+set_location -inst_name db_up/shift\[9\] -fixed false -x 2017 -y 211
+set_location -inst_name cnt/count_0\[2\] -fixed false -x 2002 -y 213
+set_location -inst_name tick_gen/cnt_RNO\[0\] -fixed false -x 1987 -y 210
+set_location -inst_name tick_gen/un1_cntlto11_3 -fixed false -x 1960 -y 213
+set_location -inst_name tick_gen/last_dir_0 -fixed false -x 2003 -y 210
+set_location -inst_name db_down/shift\[14\] -fixed false -x 1996 -y 205
+set_location -inst_name tick_gen/cnt\[2\] -fixed false -x 1958 -y 211
+set_location -inst_name down/d -fixed false -x 1992 -y 205
+set_location -inst_name db_up/shift\[2\] -fixed false -x 2020 -y 172
+set_location -inst_name dec/seg_1_6_0_.N_20_i -fixed false -x 1980 -y 213
+set_location -inst_name cnt/un1_count_1.CO1 -fixed false -x 1996 -y 213
+set_location -inst_name db_down/shift\[12\] -fixed false -x 2001 -y 205
+set_location -inst_name tick_gen/cnt\[15\] -fixed false -x 1971 -y 211
+set_location -inst_name db_down/shift\[4\] -fixed false -x 1998 -y 184
+set_location -inst_name db_down/shift\[9\] -fixed false -x 1999 -y 205
+set_location -inst_name control/current_state_s0_0_a2_0_a2 -fixed false -x 1994 -y 210
+set_location -inst_name db_down/shift\[13\] -fixed false -x 1993 -y 205
+set_location -inst_name tick_gen/un1_cntlto23_0 -fixed false -x 1990 -y 210
+set_location -inst_name down/pulse -fixed false -x 1999 -y 204
+set_location -inst_name db_up/shift\[14\] -fixed false -x 2022 -y 211
+set_location -inst_name cnt/count_2_sqmuxa -fixed false -x 2003 -y 213
+set_location -inst_name tick_gen/cnt\[19\] -fixed false -x 1975 -y 211
+set_location -inst_name tick_gen/cnt\[4\] -fixed false -x 1960 -y 211
+set_location -inst_name db_down/shift\[11\] -fixed false -x 1997 -y 205
+set_location -inst_name tick_gen/tick_1 -fixed false -x 1984 -y 210
+set_location -inst_name db_down/shift\[10\] -fixed false -x 1995 -y 205
+set_location -inst_name db_down/shift\[2\] -fixed false -x 1997 -y 184
+set_location -inst_name cnt/count_2_sqmuxa_1 -fixed false -x 1992 -y 210
+set_location -inst_name cnt/count_Z\[1\] -fixed false -x 1994 -y 214
+set_location -inst_name db_up/btn_stable_4 -fixed false -x 2016 -y 210
+set_location -inst_name I_1 -fixed false -x 1166 -y 0
+set_location -inst_name db_up/shift\[13\] -fixed false -x 2027 -y 211
+set_location -inst_name db_up/btn_stable -fixed false -x 2023 -y 210
+set_location -inst_name tick_gen/tick -fixed false -x 1984 -y 211
+set_location -inst_name dec/seg_1_6_0_.N_6_i -fixed false -x 1989 -y 213
+set_location -inst_name db_down/shift\[8\] -fixed false -x 1998 -y 205
+set_location -inst_name dec/seg_1_6_0_.N_9_i -fixed false -x 1983 -y 213
+set_location -inst_name control/current_state_srsts_0\[1\] -fixed false -x 2000 -y 210
+set_location -inst_name db_down/shift\[0\] -fixed false -x 1996 -y 184
+set_location -inst_name db_down/btn_stable_4 -fixed false -x 1998 -y 204
+set_location -inst_name tick_gen/cnt\[0\] -fixed false -x 1987 -y 211
+set_location -inst_name tick_gen/cnt\[7\] -fixed false -x 1963 -y 211
+set_location -inst_name cnt/un12_count -fixed false -x 1992 -y 213
+set_location -inst_name cnt/count_Z\[2\] -fixed false -x 2002 -y 214
+set_location -inst_name tick_gen/un1_cntlto15_2 -fixed false -x 1975 -y 213
+set_location -inst_name tick_gen/cnt\[23\] -fixed false -x 1979 -y 211
+set_location -inst_name cnt/un34_count -fixed false -x 2000 -y 213
+set_location -inst_name tick_gen/un1_cntlto11_0 -fixed false -x 1963 -y 213
+set_location -inst_name db_down/shift\[15\] -fixed false -x 1994 -y 205
+set_location -inst_name cnt/un1_count_1.SUM\[3\] -fixed false -x 1998 -y 213
+set_location -inst_name tick_gen/cnt\[20\] -fixed false -x 1976 -y 211
+set_location -inst_name db_down/btn_stable_3 -fixed false -x 1993 -y 204
+set_location -inst_name tick_gen/tick_1_sqmuxa_0_a2_RNI0CPV7 -fixed false -x 1983 -y 210
+set_location -inst_name control/current_state\[0\] -fixed false -x 1993 -y 211
+set_location -inst_name tick_gen/un1_cntlto6 -fixed false -x 1956 -y 213
+set_location -inst_name cnt/un1_count_1.SUM_0\[2\] -fixed false -x 1995 -y 213
+set_location -inst_name tick_gen/tick_1_sqmuxa_0_a2 -fixed false -x 1982 -y 210
+set_location -inst_name tick_gen/cnt\[5\] -fixed false -x 1961 -y 211
+set_location -inst_name tick_gen/cnt\[17\] -fixed false -x 1973 -y 211
+set_location -inst_name tick_gen/last_dir -fixed false -x 2003 -y 211
+set_location -inst_name tick_gen/cnt\[12\] -fixed false -x 1968 -y 211
+set_location -inst_name tick_gen/cnt\[8\] -fixed false -x 1964 -y 211
+set_location -inst_name dec/seg_1_6_0_.N_13_i -fixed false -x 1997 -y 213
+set_location -inst_name tick_gen/cnt\[18\] -fixed false -x 1974 -y 211
+set_location -inst_name tick_gen/cnt\[14\] -fixed false -x 1970 -y 211
+set_location -inst_name control/current_state_ns_0_m2_i_m2\[0\] -fixed false -x 1996 -y 210
+set_location -inst_name db_down/shift\[1\] -fixed false -x 1995 -y 184
+set_location -inst_name dec/seg_1_6_0_.N_17_i -fixed false -x 1981 -y 213
+set_location -inst_name cnt/count_0\[1\] -fixed false -x 1994 -y 213
+set_location -inst_name tick_gen/cnt\[3\] -fixed false -x 1959 -y 211
+set_location -inst_name tick_gen/cnt\[25\] -fixed false -x 1981 -y 211
+set_location -inst_name tick_gen/tick_1_sqmuxa_0_a2_i -fixed false -x 1985 -y 210
+set_location -inst_name db_up/shift\[12\] -fixed false -x 2018 -y 211
+set_location -inst_name tick_gen/cnt\[11\] -fixed false -x 1967 -y 211
+set_location -inst_name db_up/shift\[1\] -fixed false -x 2019 -y 172
+set_location -inst_name db_down/shift\[3\] -fixed false -x 1994 -y 184
+set_location -inst_name control/current_state_ns_0_a2_0_a2_0\[1\] -fixed false -x 2001 -y 210
+set_location -inst_name cnt/count_0\[3\] -fixed false -x 2001 -y 213
+set_location -inst_name db_up/shift\[11\] -fixed false -x 2021 -y 211
+set_location -inst_name control/current_state\[1\] -fixed false -x 2000 -y 211
+set_location -inst_name db_up/shift\[15\] -fixed false -x 2020 -y 211
+set_location -inst_name db_up/shift\[6\] -fixed false -x 2026 -y 211
+set_location -inst_name db_up/shift\[0\] -fixed false -x 2017 -y 172
+set_location -inst_name up/pulse -fixed false -x 2022 -y 210
+set_location -inst_name dec/seg_1_6_0_.N_19_i -fixed false -x 1985 -y 213
+set_location -inst_name cnt/un1_count_1.SUM\[1\] -fixed false -x 1993 -y 213
+set_location -inst_name cnt/count_Z\[3\] -fixed false -x 2001 -y 214
+set_location -inst_name db_down/shift\[7\] -fixed false -x 2003 -y 205
+set_location -inst_name I_1/U0_RGB1 -fixed false -x 1603 -y 206
+set_location -inst_name dec/seg_1_6_0_.N_16_i -fixed false -x 1988 -y 213
+set_location -inst_name db_up/btn_stable_3 -fixed false -x 2017 -y 210
+set_location -inst_name db_down/shift\[6\] -fixed false -x 1993 -y 184
+set_location -inst_name tick_gen/un1_cntlto6_4 -fixed false -x 1957 -y 213
+set_location -inst_name cnt/un1_count_1_sqmuxa_1 -fixed false -x 1997 -y 210
+set_location -inst_name tick_gen/un1_cntlto23 -fixed false -x 1988 -y 210
+set_location -inst_name tick_gen/cnt\[22\] -fixed false -x 1978 -y 211
+set_location -inst_name db_down/btn_stable -fixed false -x 1992 -y 204
+set_location -inst_name db_up/shift\[4\] -fixed false -x 2016 -y 172
+set_location -inst_name cnt/count_1_sqmuxa -fixed false -x 1999 -y 210
+set_location -inst_name tick_gen/tick_1_0 -fixed false -x 2002 -y 210
+set_location -inst_name tick_gen/cnt\[24\] -fixed false -x 1980 -y 211
+set_location -inst_name db_down/shift\[5\] -fixed false -x 2000 -y 184
+set_location -inst_name tick_gen/un1_cntlto23_3 -fixed false -x 1989 -y 210
+set_location -inst_name cnt/un1_count_1_sqmuxa -fixed false -x 1998 -y 210
+set_location -inst_name tick_gen/cnt_s_176 -fixed false -x 1956 -y 210
+set_location -inst_name I_1/U0_IOBA -fixed false -x 1598 -y 215
+set_location -inst_name I_1/U0_RGB1_RGB0 -fixed false -x 1603 -y 179
+set_location -inst_name tick_gen/cnt_s_176_CC_0 -fixed false -x 1956 -y 212
+set_location -inst_name tick_gen/cnt_s_176_CC_1 -fixed false -x 1968 -y 212
+set_location -inst_name tick_gen/cnt_s_176_CC_2 -fixed false -x 1980 -y 212

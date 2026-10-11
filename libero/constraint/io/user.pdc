@@ -1,0 +1,123 @@
+# Microchip I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: 2025.1 2025.1.0.14
+
+# Family: PolarFireSoC , Die: MPFS095T , Package: FCSG325
+
+# Date generated: Fri Nov 28 10:42:36 2025 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io -port_name btn_down  \
+    -pin_name T19           \
+    -fixed true             \
+    -DIRECTION INPUT
+
+
+set_io -port_name btn_remain  \
+    -pin_name V21             \
+    -fixed true               \
+    -DIRECTION INPUT
+
+
+set_io -port_name btn_up  \
+    -pin_name U18         \
+    -fixed true           \
+    -DIRECTION INPUT
+
+
+set_io -port_name clk  \
+    -pin_name R18      \
+    -fixed true        \
+    -DIRECTION INPUT
+
+
+set_io -port_name dp   \
+    -pin_name Y15      \
+    -fixed true        \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name rst  \
+    -pin_name AA19     \
+    -fixed true        \
+    -DIRECTION INPUT
+
+
+set_io -port_name {seg[0]}  \
+    -pin_name V18           \
+    -fixed true             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {seg[1]}  \
+    -pin_name W20           \
+    -fixed true             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {seg[2]}  \
+    -pin_name Y19           \
+    -fixed true             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {seg[3]}  \
+    -pin_name T17           \
+    -fixed true             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {seg[4]}  \
+    -pin_name W16           \
+    -fixed true             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {seg[5]}  \
+    -pin_name AA17          \
+    -fixed true             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {seg[6]}  \
+    -pin_name V15           \
+    -fixed true             \
+    -DIRECTION OUTPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+
+#
+#Ports using Dedicated Pins
+
+#
+

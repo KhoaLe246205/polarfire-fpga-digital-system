@@ -1,0 +1,291 @@
+KEY LIBERO "2025.1"
+KEY CAPTURE "2025.1.0.14"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "SYSTEMVERILOG"
+KEY VHDLMODE "VHDL2008"
+KEY SYSTEMVERILOGMFCU "FALSE"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "PolarFireSoC"
+KEY VendorTechnology_Die "PA5SOC095T"
+KEY VendorTechnology_Package "fcsg325"
+KEY VendorTechnology_Speed "-1"
+KEY VendorTechnology_DieVoltage "1.0"
+KEY VendorTechnology_PART_RANGE "EXT"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS18"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA5SOC095T"
+KEY VendorTechnology_TEMPR "EXT"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.8_VOLTR "EXT"
+KEY VendorTechnology_VCCI_2.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_3.3_VOLTR "EXT"
+KEY VendorTechnology_VOLTR "EXT"
+KEY ProjectLocation "D:\TN.KTS\Libero\Connter"
+KEY ProjectDescription ""
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
+KEY GlobalIncludePaths ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY MemoryMapDrcSeverity "FALSE"
+KEY LossOfDataDRCSeverity "TRUE"
+KEY IdWidthMismatchDRCSeverity "TRUE"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "top::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST GlobalIncludeFileList
+ENDLIST
+LIST FileManager
+VALUE "<project>\constraint\io\user.pdc,io_pdc"
+STATE="utd"
+TIME="1764301356"
+SIZE="2229"
+IS_TARGET="TRUE"
+ENDFILE
+VALUE "<project>\hdl\clock_divider.v,hdl"
+STATE="utd"
+TIME="1765201723"
+SIZE="1001"
+ENDFILE
+VALUE "<project>\hdl\counter.v,hdl"
+STATE="utd"
+TIME="1763980148"
+SIZE="462"
+ENDFILE
+VALUE "<project>\hdl\debounce.v,hdl"
+STATE="utd"
+TIME="1764299746"
+SIZE="307"
+ENDFILE
+VALUE "<project>\hdl\edge_detect.v,hdl"
+STATE="utd"
+TIME="1764299773"
+SIZE="219"
+ENDFILE
+VALUE "<project>\hdl\fsm.v,hdl"
+STATE="utd"
+TIME="1764300338"
+SIZE="1190"
+ENDFILE
+VALUE "<project>\hdl\seven_segment_decoder.v,hdl"
+STATE="utd"
+TIME="1764122182"
+SIZE="525"
+ENDFILE
+VALUE "<project>\hdl\top.v,hdl"
+STATE="utd"
+TIME="1765201456"
+SIZE="1392"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1765200937"
+SIZE="1167"
+ENDFILE
+VALUE "<project>\simulation\test_bench_presynth_simulation.log,log"
+STATE="utd"
+TIME="1765201745"
+SIZE="4284"
+ENDFILE
+VALUE "<project>\stimulus\test_bench.v,tb_hdl"
+STATE="utd"
+TIME="1765196221"
+SIZE="853"
+ENDFILE
+VALUE "<project>\synthesis\top.so,so"
+STATE="utd"
+TIME="1765179066"
+SIZE="205"
+ENDFILE
+VALUE "<project>\synthesis\top_syn.prj,prj"
+STATE="utd"
+TIME="1765179067"
+SIZE="3206"
+ENDFILE
+VALUE "<project>\synthesis\top_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1765179066"
+SIZE="955"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=10000ns
+Resolution=1ps
+VsimOpt=
+EntityName=test_bench
+TopInstanceName=top
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+SdfCorner=slow_lv_ht
+PliPath=C:/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/lib/modelsimpro/pli/pf_crypto_win_se64_pli.dll
+UseCustomPliPath=true
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=TRUE
+LibraryPath=C:/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/lib/modelsimpro/precompiled/vlog/polarfire
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+AbortFlowOn3.3V_IO_ON=FALSE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME Pro"
+FUNCTION="Simulation"
+TOOL="ModelSim Pro Edition"
+LOCATION="C:\Microchip\Libero_SoC_2025.1\Libero_SoC\ModelSim_Pro\win32acoem\modelsim.exe"
+PARAM="-l test_bench_presynth_simulation.log -c"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Pre-Synthesis Simulate:test_bench_presynth_simulation.log
+HDL;hdl\seven_segment_decoder.v;0
+HDL;hdl\top.v;0
+HDL;hdl\clock_divider.v;0
+HDL;hdl\counter.v;0
+HDL;hdl\debounce.v;0
+HDL;hdl\edge_detect.v;0
+HDL;hdl\fsm.v;0
+StartPage;StartPage;0
+ACTIVEVIEW;hdl\fsm.v
+ENDLIST
+LIST ModuleSubBlockList
+LIST "counter::work","hdl\counter.v","FALSE","FALSE"
+ENDLIST
+LIST "debounce::work","hdl\debounce.v","FALSE","FALSE"
+ENDLIST
+LIST "edge_detect::work","hdl\edge_detect.v","FALSE","FALSE"
+ENDLIST
+LIST "clock_divider::work","hdl\clock_divider.v","FALSE","FALSE"
+ENDLIST
+LIST "fsm::work","hdl\fsm.v","FALSE","FALSE"
+ENDLIST
+LIST "seven_segment_decoder::work","hdl\seven_segment_decoder.v","FALSE","FALSE"
+ENDLIST
+LIST "top::work","hdl\top.v","FALSE","FALSE"
+SUBBLOCK "counter::work","hdl\counter.v","FALSE","FALSE"
+SUBBLOCK "debounce::work","hdl\debounce.v","FALSE","FALSE"
+SUBBLOCK "edge_detect::work","hdl\edge_detect.v","FALSE","FALSE"
+SUBBLOCK "clock_divider::work","hdl\clock_divider.v","FALSE","FALSE"
+SUBBLOCK "fsm::work","hdl\fsm.v","FALSE","FALSE"
+SUBBLOCK "seven_segment_decoder::work","hdl\seven_segment_decoder.v","FALSE","FALSE"
+ENDLIST
+LIST "test_bench::work","stimulus\test_bench.v","FALSE","TRUE"
+SUBBLOCK "top::work","hdl\top.v","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+VALUE "constraint\io\user.pdc"
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

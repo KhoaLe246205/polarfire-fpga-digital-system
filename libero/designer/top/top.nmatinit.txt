@@ -1,0 +1,163 @@
+# Microchip NMAT TXT File
+
+# Version: 2025.1 2025.1.0.14
+
+# Design Name: top 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFireSoC , Die: MPFS095T , Package: FCSG325 , Speed grade: -1 
+
+# Date generated: Mon Dec  8 14:31:49 2025 
+
+
+#
+# I/O constraints
+#
+
+set_io btn_down T19
+set_io btn_remain V21
+set_io btn_up U18
+set_io clk R18
+set_io dp Y15
+set_io rst AA19
+set_io seg[0] V18
+set_io seg[1] W20
+set_io seg[2] Y19
+set_io seg[3] T17
+set_io seg[4] W16
+set_io seg[5] AA17
+set_io seg[6] V15
+
+#
+# Core cell constraints
+#
+
+set_location tick_gen/cnt[9] 1965 211
+set_location tick_gen/cnt[21] 1977 211
+set_location tick_gen/un1_cntlto16 1961 213
+set_location db_up/shift[5] 2022 172
+set_location cnt/count_0_1[3] 1995 210
+set_location up/d 2023 211
+set_location db_up/shift[3] 2021 172
+set_location cnt/count_0[0] 1999 213
+set_location tick_gen/cnt[13] 1969 211
+set_location cnt/count_Z[0] 1999 214
+set_location tick_gen/cnt[1] 1957 211
+set_location db_up/shift[8] 2016 211
+set_location db_up/shift[10] 2019 211
+set_location tick_gen/cnt[16] 1972 211
+set_location tick_gen/cnt[10] 1966 211
+set_location tick_gen/cnt[6] 1962 211
+set_location db_up/shift[7] 2025 211
+set_location control/current_state_srsts_0[0] 1993 210
+set_location db_up/shift[9] 2017 211
+set_location cnt/count_0[2] 2002 213
+set_location tick_gen/cnt_RNO[0] 1987 210
+set_location tick_gen/un1_cntlto11_3 1960 213
+set_location tick_gen/last_dir_0 2003 210
+set_location db_down/shift[14] 1996 205
+set_location tick_gen/cnt[2] 1958 211
+set_location down/d 1992 205
+set_location db_up/shift[2] 2020 172
+set_location dec/seg_1_6_0_.N_20_i 1980 213
+set_location cnt/un1_count_1.CO1 1996 213
+set_location db_down/shift[12] 2001 205
+set_location tick_gen/cnt[15] 1971 211
+set_location db_down/shift[4] 1998 184
+set_location db_down/shift[9] 1999 205
+set_location control/current_state_s0_0_a2_0_a2 1994 210
+set_location db_down/shift[13] 1993 205
+set_location tick_gen/un1_cntlto23_0 1990 210
+set_location down/pulse 1999 204
+set_location db_up/shift[14] 2022 211
+set_location cnt/count_2_sqmuxa 2003 213
+set_location tick_gen/cnt[19] 1975 211
+set_location tick_gen/cnt[4] 1960 211
+set_location db_down/shift[11] 1997 205
+set_location tick_gen/tick_1 1984 210
+set_location db_down/shift[10] 1995 205
+set_location db_down/shift[2] 1997 184
+set_location cnt/count_2_sqmuxa_1 1992 210
+set_location cnt/count_Z[1] 1994 214
+set_location db_up/btn_stable_4 2016 210
+set_location I_1 1166 0
+set_location db_up/shift[13] 2027 211
+set_location db_up/btn_stable 2023 210
+set_location tick_gen/tick 1984 211
+set_location dec/seg_1_6_0_.N_6_i 1989 213
+set_location db_down/shift[8] 1998 205
+set_location dec/seg_1_6_0_.N_9_i 1983 213
+set_location control/current_state_srsts_0[1] 2000 210
+set_location db_down/shift[0] 1996 184
+set_location db_down/btn_stable_4 1998 204
+set_location tick_gen/cnt[0] 1987 211
+set_location tick_gen/cnt[7] 1963 211
+set_location cnt/un12_count 1992 213
+set_location cnt/count_Z[2] 2002 214
+set_location tick_gen/un1_cntlto15_2 1975 213
+set_location tick_gen/cnt[23] 1979 211
+set_location cnt/un34_count 2000 213
+set_location tick_gen/un1_cntlto11_0 1963 213
+set_location db_down/shift[15] 1994 205
+set_location cnt/un1_count_1.SUM[3] 1998 213
+set_location tick_gen/cnt[20] 1976 211
+set_location db_down/btn_stable_3 1993 204
+set_location tick_gen/tick_1_sqmuxa_0_a2_RNI0CPV7 1983 210
+set_location control/current_state[0] 1993 211
+set_location tick_gen/un1_cntlto6 1956 213
+set_location cnt/un1_count_1.SUM_0[2] 1995 213
+set_location tick_gen/tick_1_sqmuxa_0_a2 1982 210
+set_location tick_gen/cnt[5] 1961 211
+set_location tick_gen/cnt[17] 1973 211
+set_location tick_gen/last_dir 2003 211
+set_location tick_gen/cnt[12] 1968 211
+set_location tick_gen/cnt[8] 1964 211
+set_location dec/seg_1_6_0_.N_13_i 1997 213
+set_location tick_gen/cnt[18] 1974 211
+set_location tick_gen/cnt[14] 1970 211
+set_location control/current_state_ns_0_m2_i_m2[0] 1996 210
+set_location db_down/shift[1] 1995 184
+set_location dec/seg_1_6_0_.N_17_i 1981 213
+set_location cnt/count_0[1] 1994 213
+set_location tick_gen/cnt[3] 1959 211
+set_location tick_gen/cnt[25] 1981 211
+set_location tick_gen/tick_1_sqmuxa_0_a2_i 1985 210
+set_location db_up/shift[12] 2018 211
+set_location tick_gen/cnt[11] 1967 211
+set_location db_up/shift[1] 2019 172
+set_location db_down/shift[3] 1994 184
+set_location control/current_state_ns_0_a2_0_a2_0[1] 2001 210
+set_location cnt/count_0[3] 2001 213
+set_location db_up/shift[11] 2021 211
+set_location control/current_state[1] 2000 211
+set_location db_up/shift[15] 2020 211
+set_location db_up/shift[6] 2026 211
+set_location db_up/shift[0] 2017 172
+set_location up/pulse 2022 210
+set_location dec/seg_1_6_0_.N_19_i 1985 213
+set_location cnt/un1_count_1.SUM[1] 1993 213
+set_location cnt/count_Z[3] 2001 214
+set_location db_down/shift[7] 2003 205
+set_location I_1/U0_RGB1 1603 206
+set_location dec/seg_1_6_0_.N_16_i 1988 213
+set_location db_up/btn_stable_3 2017 210
+set_location db_down/shift[6] 1993 184
+set_location tick_gen/un1_cntlto6_4 1957 213
+set_location cnt/un1_count_1_sqmuxa_1 1997 210
+set_location tick_gen/un1_cntlto23 1988 210
+set_location tick_gen/cnt[22] 1978 211
+set_location db_down/btn_stable 1992 204
+set_location db_up/shift[4] 2016 172
+set_location cnt/count_1_sqmuxa 1999 210
+set_location tick_gen/tick_1_0 2002 210
+set_location tick_gen/cnt[24] 1980 211
+set_location db_down/shift[5] 2000 184
+set_location tick_gen/un1_cntlto23_3 1989 210
+set_location cnt/un1_count_1_sqmuxa 1998 210
+set_location tick_gen/cnt_s_176 1956 210
+set_location I_1/U0_IOBA 1598 215
+set_location I_1/U0_RGB1_RGB0 1603 179
+set_location tick_gen/cnt_s_176_CC_0 1956 212
+set_location tick_gen/cnt_s_176_CC_1 1968 212
+set_location tick_gen/cnt_s_176_CC_2 1980 212

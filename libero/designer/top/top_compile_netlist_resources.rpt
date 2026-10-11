@@ -1,0 +1,148 @@
+Compile Report
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+Date: Mon Dec  8 14:31:10 2025
+
+Device Selection
++------------------------+--------------+
+| Family                 | PolarFireSoC |
+| Device                 | MPFS095T     |
+| Package                | FCSG325      |
+| Speed Grade            | -1           |
+| Core Voltage           | 1.0V         |
+| Part Range             | EXT          |
+| Default I/O technology | LVCMOS 1.8V  |
++------------------------+--------------+
+
+Source Files
++---------+-------------------------------------------+
+| Topcell | top                                       |
+| Format  | Verilog                                   |
+| Source  | D:\TN.KTS\Libero\Connter\synthesis\top.vm |
++---------+-------------------------------------------+
+
+Options
++----------------------------------------------------+----+
+| Limit the number of high fanout nets to display to | 10 |
++----------------------------------------------------+----+
+
+Resource Usage
++-----------------------------+------+-------+------------+
+| Type                        | Used | Total | Percentage |
++-----------------------------+------+-------+------------+
+| 4LUT                        | 78   | 93516 | 0.08       |
+| DFF                         | 68   | 93516 | 0.07       |
+| User I/O                    | 13   | 80    | 16.25      |
+| -- Single-ended I/O         | 13   | 80    | 16.25      |
+| -- Differential I/O Pairs   | 0    | 40    | 0.00       |
+| -- I/Os using I/O Registers | 0    | 80    | 0.00       |
+| I/O Register Flip-Flops     | 0    | 240   | 0.00       |
+| -- Input  I/O Flip-Flops    | 0    | 80    | 0.00       |
+| -- Output I/O Flip-Flops    | 0    | 80    | 0.00       |
+| -- Enable I/O Flip-Flops    | 0    | 80    | 0.00       |
+| uSRAM                       | 0    | 876   | 0.00       |
+| LSRAM                       | 0    | 308   | 0.00       |
+| Math                        | 0    | 292   | 0.00       |
+| H-Chip Global               | 1    | 48    | 2.08       |
+| PLL                         | 0    | 8     | 0.00       |
+| DLL                         | 0    | 8     | 0.00       |
+| Transceiver Lanes           | 0    | 2     | 0.00       |
+| Transceiver PCIe            | 0    | 2     | 0.00       |
+| MSS                         | 0    | 1     | 0.00       |
++-----------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++-----------------------+------+-----+
+| Type                  | 4LUT | DFF |
++-----------------------+------+-----+
+| Fabric Logic          | 78   | 68  |
+| uSRAM Interface Logic | 0    | 0   |
+| LSRAM Interface Logic | 0    | 0   |
+| Math Interface Logic  | 0    | 0   |
+| Total Used            | 78   | 68  |
++-----------------------+------+-----+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 26     | 1    |
+| Total  | 1    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 5            | 0           | 0               |
+| Output I/O                    | 8            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+Nets assigned to chip global resources
++--------+---------+---------------------+
+| Fanout | Type    | Name                |
++--------+---------+---------------------+
+| 68     | INT_NET | Net   : NN_1        |
+|        |         | Driver: I_1/U0_RGB1 |
+|        |         | Source: NETLIST     |
++--------+---------+---------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+------------------------------------------------+
+| Fanout | Type    | Name                                           |
++--------+---------+------------------------------------------------+
+| 27     | INT_NET | Net   : tick_gen/cnte_i                        |
+|        |         | Driver: tick_gen/tick_1_sqmuxa_0_a2_i          |
+| 26     | INT_NET | Net   : tick_gen/tick_1_sqmuxa_0_a2_RNI0CPV7_Z |
+|        |         | Driver: tick_gen/tick_1_sqmuxa_0_a2_RNI0CPV7   |
+| 12     | INT_NET | Net   : count[0]                               |
+|        |         | Driver: cnt/count_Z[0]                         |
+| 11     | INT_NET | Net   : count[2]                               |
+|        |         | Driver: cnt/count_Z[2]                         |
+| 11     | INT_NET | Net   : count[1]                               |
+|        |         | Driver: cnt/count_Z[1]                         |
+| 10     | INT_NET | Net   : count[3]                               |
+|        |         | Driver: cnt/count_Z[3]                         |
+| 9      | INT_NET | Net   : rst_c                                  |
+|        |         | Driver: rst_ibuf                               |
+| 8      | INT_NET | Net   : up_direction_d                         |
+|        |         | Driver: control/current_state[0]               |
+| 6      | INT_NET | Net   : cnt/count_2_sqmuxa_1_Z                 |
+|        |         | Driver: cnt/count_2_sqmuxa_1                   |
+| 4      | INT_NET | Net   : cnt_tick                               |
+|        |         | Driver: tick_gen/tick                          |
++--------+---------+------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+------------------------------------------------+
+| Fanout | Type    | Name                                           |
++--------+---------+------------------------------------------------+
+| 27     | INT_NET | Net   : tick_gen/cnte_i                        |
+|        |         | Driver: tick_gen/tick_1_sqmuxa_0_a2_i          |
+| 26     | INT_NET | Net   : tick_gen/tick_1_sqmuxa_0_a2_RNI0CPV7_Z |
+|        |         | Driver: tick_gen/tick_1_sqmuxa_0_a2_RNI0CPV7   |
+| 12     | INT_NET | Net   : count[0]                               |
+|        |         | Driver: cnt/count_Z[0]                         |
+| 11     | INT_NET | Net   : count[2]                               |
+|        |         | Driver: cnt/count_Z[2]                         |
+| 11     | INT_NET | Net   : count[1]                               |
+|        |         | Driver: cnt/count_Z[1]                         |
+| 10     | INT_NET | Net   : count[3]                               |
+|        |         | Driver: cnt/count_Z[3]                         |
+| 9      | INT_NET | Net   : rst_c                                  |
+|        |         | Driver: rst_ibuf                               |
+| 8      | INT_NET | Net   : up_direction_d                         |
+|        |         | Driver: control/current_state[0]               |
+| 6      | INT_NET | Net   : cnt/count_2_sqmuxa_1_Z                 |
+|        |         | Driver: cnt/count_2_sqmuxa_1                   |
+| 4      | INT_NET | Net   : cnt_tick                               |
+|        |         | Driver: tick_gen/tick                          |
++--------+---------+------------------------------------------------+
+
